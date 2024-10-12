@@ -13,6 +13,42 @@
         android:theme="@style/Theme.EnglishLessions"
         tools:targetApi="31">
         <activity
+            android:name=".AccountSetup.AccountSetup8"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup7"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup6"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup5"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup4"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup3"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.Loading"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup2"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSetup.AccountSetup1"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding.OnBoarding3"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding.OnBoarding2"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding.OnBoarding1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +57,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Welcome" />
     </application>
 
 </manifest>
